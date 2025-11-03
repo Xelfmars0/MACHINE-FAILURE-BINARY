@@ -5,7 +5,7 @@ import pickle
 import json
 import shap
 import matplotlib.pyplot as plt
-shap.initjs()
+
 
 @st.cache_resource
 def load_assets():
